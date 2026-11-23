@@ -9,7 +9,7 @@ body {
 }
 
 ::selection {
-	background-color: #EEF6B6;
+	background-color: pink;
 }
 
 .if {
