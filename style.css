@@ -1,0 +1,45 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+}
+
+::selection {
+	background-color: #EEF6B6;
+}
+
+.if {
+	margin-bottom: 5px;
+	display: inline-block;
+	font-family: serif;
+}
+
+.만약 {
+	font-size: 13px;
+	font-family: serif;
+	font-weight: 900;
+}
+
+input[type="submit"] {
+  background-color: lightgray;  /* 버튼 배경색 */
+  color: black;               /* 글자색 */
+  border: black 1px;               /* 기본 테두리 제거 */
+  padding: 4px 10px;          /* 안쪽 여백 */
+  border-radius: 2px;         /* 모서리 둥글게 */
+  cursor: pointer;            /* 마우스 올리면 손가락 모양 */
+}
+
+input[type="email"] {
+	padding: 1.5px 5px;
+	background-color: #EEF6B6;
+	width: 315px;
+}
+
+
+@media screen and (max-width: 704px) {
+
+}
